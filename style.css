@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(./images/bg-pattern-top-mobile.svg);
+  padding: 60px 15px 60px 15px;
+}
+
+#container {
+  text-align: center;
+}
+
+h1 {
+  color: #502050;
+  margin-bottom: 15px;
+  font-size: 2.2rem;
+}
+
+.rating {
+  background-color: #f7f2f7;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.comment {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #502050;
+  color: white;
+  line-height: 20px;
+  padding: 20px;
+  text-align: start;
+}
+
+#comment-section {
+  margin-top: 30px;
+}
+
+#intro-section p {
+  margin-bottom: 25px;
+  color: #502050;
+  opacity: 70%;
+  line-height: 20px;
+}
+
+.star-segment {
+  padding: 10px;
+}
+
+#rating-section h6 {
+  padding-bottom: 10px;
+  color: #502050;
+}
+
+.comment-top-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.comment-top-section-text {
+  margin-left: 20px;
+}
+
+.comment-top-section-text h4 {
+  width: 100%;
+}
+
+.buyer-text {
+  color: #ee68a4;
+}
+
+img {
+  border-radius: 50%;
+  height: 40px;
+  width: auto;
+}
+
+@media (min-width: 700px) {
+  html {
+    background-color: #ededed;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 50px 20px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.21);
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    padding: 80px 100px 80px 100px;
+    background-color: white;
+    text-align: start;
+  }
+
+  #top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #top-section h1 {
+    font-size: 2.5rem;
+  }
+
+  #intro-section {
+    max-width: 350px;
+  }
+
+  #intro-section h1 {
+    max-width: 300px;
+  }
+
+  #rating-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .rating h6 {
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+
+  #rating-1 {
+    margin-right: 100px;
+  }
+
+  #rating-2 {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  #rating-3 {
+    margin-left: 100px;
+  }
+
+  #comment-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #comment-1 {
+    margin-bottom: 40px;
+  }
+
+  #comment-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  #comment-3 {
+    margin-top: 40px;
+  }
+}
