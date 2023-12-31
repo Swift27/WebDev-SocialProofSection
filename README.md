@@ -10,6 +10,3 @@ Thank you for checking out this social proof section. This responsive web develo
 
 - HTML5
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
